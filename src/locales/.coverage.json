@@ -1,0 +1,132 @@
+{
+ "v": 1,
+ "at": "2026-11-13T00:05:00.919Z",
+ "incomplete": false,
+ "pendingKeysByLang": {
+  "ar": 0,
+  "fr": 0
+ },
+ "a": [],
+ "b": [],
+ "c": [
+  {
+   "path": "src/components/ErrorBoundary.tsx",
+   "reason": "class-component",
+   "snippet": "Something went wrong",
+   "line": 32
+  },
+  {
+   "path": "src/components/ErrorBoundary.tsx",
+   "reason": "class-component",
+   "snippet": "An unexpected error occurred. Try refreshing the page.",
+   "line": 34
+  },
+  {
+   "path": "src/components/ErrorBoundary.tsx",
+   "reason": "class-component",
+   "snippet": "Reload",
+   "line": 45
+  },
+  {
+   "path": "src/components/Footer.tsx",
+   "reason": "unclassified-token",
+   "snippet": "Brand",
+   "line": 24
+  },
+  {
+   "path": "src/components/Header.tsx",
+   "reason": "unclassified-token",
+   "snippet": "Brand",
+   "line": 20
+  },
+  {
+   "path": "src/components/MotionReveal.tsx",
+   "reason": "unclassified-token",
+   "snippet": "-80px",
+   "line": 19
+  },
+  {
+   "path": "src/contexts/CartContext.tsx",
+   "reason": "error-text",
+   "snippet": "useCart must be used inside CartProvider",
+   "line": 28
+  },
+  {
+   "path": "src/lib/chantan-ai.ts",
+   "reason": "excluded-dir-text",
+   "snippet": "AI request failed ()",
+   "line": 94
+  },
+  {
+   "path": "src/lib/chantan-media.ts",
+   "reason": "error-text",
+   "snippet": "Could not read the file.",
+   "line": 72
+  },
+  {
+   "path": "src/lib/chantan-media.ts",
+   "reason": "error-text",
+   "snippet": "Cancelled.",
+   "line": 105
+  },
+  {
+   "path": "src/lib/chantan-media.ts",
+   "reason": "error-text",
+   "snippet": "The video is taking too long — try videoStatus(jobId) later.",
+   "line": 124
+  },
+  {
+   "path": "src/lib/chantan-media.ts",
+   "reason": "error-text",
+   "snippet": "Please use an MP4 or MOV video (the normal phone camera format). Screen recordi…",
+   "line": 200
+  },
+  {
+   "path": "src/lib/chantan-media.ts",
+   "reason": "error-text",
+   "snippet": "Cancelled.",
+   "line": 205
+  },
+  {
+   "path": "src/pages/ProductPage.tsx",
+   "reason": "unclassified-token",
+   "snippet": "Top",
+   "line": 31
+  },
+  {
+   "path": "src/pages/ProductPage.tsx",
+   "reason": "unclassified-token",
+   "snippet": "Middle",
+   "line": 31
+  },
+  {
+   "path": "src/pages/ProductPage.tsx",
+   "reason": "unclassified-token",
+   "snippet": "Base",
+   "line": 31
+  },
+  {
+   "path": "index.html",
+   "reason": "tab-title",
+   "snippet": "<title>KATANA PARFUM — Find the scent that stays with you</title>"
+  },
+  {
+   "path": "src/",
+   "reason": "db-content",
+   "snippet": "tables read by the app: products, orders",
+   "count": 2
+  },
+  {
+   "path": "supabase/functions/_shared/cors.ts",
+   "reason": "server-messages",
+   "snippet": "19 text(s) across 2 edge function file(s)",
+   "count": 19
+  },
+  {
+   "path": "src/",
+   "reason": "date-locale",
+   "snippet": "dates formatted for \"en-US\" only (1 place)",
+   "count": 1
+  }
+ ]
+}

@@ -6,12 +6,6 @@ import path from "node:path"
 import chantanTagger from "./chantan-tagger.mjs"
 import pkg from "./package.json"
 
-// Pre-bundle EVERY preinstalled dependency at server boot. Without this, the
-// first import of a not-yet-optimized package (e.g. the AI adds a chart or
-// auth feature) makes Vite re-optimize deps MID-SESSION → forced full page
-// reloads, and in the bad case a stale module graph (duplicate React → white
-// preview, or the "Outdated Optimize Dep" infinite reload loop). Node-side
-// packages that never run in the browser stay out of the list.
 const PREBUNDLE_EXCLUDE = new Set(["tailwindcss-animate"])
 const prebundle = [
   "react/jsx-runtime",

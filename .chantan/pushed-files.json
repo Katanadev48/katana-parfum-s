@@ -1,11 +1,12 @@
 {
  "note": "Written by Chantan so a later sync knows which files it owns. Do not edit.",
- "pushed_at": "2026-11-13T00:08:52.988Z",
+ "pushed_at": "2026-11-13T00:31:10.655Z",
  "files": [
   ".env.example",
   ".gitignore",
   "README.md",
   "chantan-assets.json",
+  "chantan-tagger.d.ts",
   "chantan-tagger.mjs",
   "components.json",
   "index.html",
